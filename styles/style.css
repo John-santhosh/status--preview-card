@@ -34,7 +34,7 @@ body{
 
 .container{
     background-color: var(--card-background);
-    width: 375px;
+    width: 350px;
     border-radius: 1rem;
     overflow: hidden;
 }
