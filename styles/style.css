@@ -124,7 +124,7 @@ article:last-child{
         height: 100%;
         overflow: hidden;
         border-radius: 0 1rem 1rem 0; 
-        background:url("../images/image-header-desktop.jpg") center/cover no-repeat, var(--accent);
+        background:url("../images/image-header-desktop.jpg") center/100% 100% no-repeat, var(--accent);
          background-blend-mode: multiply; 
         
     }
