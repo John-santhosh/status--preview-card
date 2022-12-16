@@ -69,14 +69,14 @@ body{
 .left article:nth-child(1) h1{
     margin: 2rem auto 1.5rem auto;
     font-weight:700;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: var(--main-heading-and-stats)
 }
 
 .left article:nth-child(1) p{
     color: var(--main-paragraph);
     line-height: 1.6;
-    width: 95%;
+    width: 100%;
     margin: auto;
 }
 
@@ -124,15 +124,15 @@ article:last-child{
         height: 100%;
         overflow: hidden;
         border-radius: 0 1rem 1rem 0; 
-        background:url("../images/image-header-desktop.jpg") center/100% 100% no-repeat, var(--accent);
-        background-blend-mode: multiply; 
-
+        background:url("../images/image-header-desktop.jpg") center/cover no-repeat, var(--accent);
+         background-blend-mode: multiply; 
+        
     }
     .container > article:first-child{
         order: 1;
-        width: 500px;
+        width: 600px;
         
-    }
+    }    
     /* img{
         width: 100%;
         height: 100%;
@@ -141,6 +141,7 @@ article:last-child{
     } */
     .left{
         margin: auto 30px;
+        width: 600px;
     }
     ul{
         margin-left:0;
